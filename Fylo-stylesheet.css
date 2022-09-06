@@ -87,7 +87,7 @@ nav {
 
 @media screen and (min-width: 933px) {
   .nav-items {
-    gap: 56px;
+    gap: 3.5rem;
   }
 }
 
@@ -118,7 +118,7 @@ header {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 
 .header-text-div {
@@ -137,7 +137,7 @@ header h1 {
 
 @media screen and (min-width: 500px) {
   header h1 {
-    max-width: calc(100% - 60px);
+    max-width: calc(100% - 3.75rem);
     min-width: 22rem;
   }
 }
@@ -157,7 +157,7 @@ header p {
 
 .header-form input {
   display: block;
-  max-width: 479px;
+  max-width: 29.9375rem;
 }
 
 .header-email-input {
@@ -234,7 +234,7 @@ main {
   width: calc(100% - 3.4375rem);
   display: block;
   margin: 0 auto;
-  max-width: 540px;
+  max-width: 33.75rem;
 }
 
 /*============== MAIN TEXT CONTAINER ==============*/
@@ -484,8 +484,8 @@ address {
 
 .footer-logo-container > img {
   display: block;
-  min-width: 178px;
-  min-height: 53px;
+  min-width: 11.125rem;
+  min-height: 3.3125rem;
   max-width: 100%;
 }
 
@@ -494,14 +494,14 @@ address {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 18px;
+  gap: 1.125rem;
   text-decoration: none;
   color: var(--Light-Grayish-Blue);
   width: max-content;
 }
 
 .a-icon-container:last-of-type {
-  margin-top: 21px;
+  margin-top: 1.3125rem;
 }
 
 .icon {
@@ -509,7 +509,7 @@ address {
 }
 
 .a-icon-container:hover .icon {
-  transform: translateY(-8px);
+  transform: translateY(-0.5rem);
 }
 
 .icon > img {
@@ -525,7 +525,7 @@ footer li {
 .footer-ul {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .footer-ul > li {
@@ -545,7 +545,7 @@ footer li {
 
 /*============== FOOTER 3 ==============*/
 .footer3 {
-  margin-top: 54px;
+  margin-top: 3.375rem;
 }
 
 /*============== SOCIALS ==============*/
@@ -553,7 +553,7 @@ footer li {
   margin: 0 auto;
   margin-top: 50px;
   flex-direction: row;
-  gap: 9px;
+  gap: 0.5625rem;
   justify-content: center;
   align-items: center;
 }
@@ -564,8 +564,8 @@ footer li {
   align-items: center;
   border: 1px solid white;
   border-radius: 50%;
-  width: 29px;
-  height: 29px;
+  width: 1.8125rem;
+  height: 1.8125rem;
   cursor: pointer;
   transition: all 200ms ease-out;
   transition: all 200ms ease-out;
@@ -587,7 +587,7 @@ footer li {
 /*============== ION-ICON ==============*/
 ion-icon,
 .ion-icon {
-  font-size: 16px;
+  font-size: 1rem;
   fill: white;
   transition: all 200ms ease-out;
 }
@@ -628,8 +628,8 @@ ion-icon,
   .section-top > p {
     text-align: left;
     margin: unset;
-    margin-top: 22px;
-    max-width: 489px;
+    margin-top: 1.375rem;
+    max-width: 30.5625rem;
   }
   .section-top {
     width: 53%;
@@ -653,16 +653,16 @@ ion-icon,
 
   .section-email-input,
   .section-submit {
-    height: 42px;
+    height: 2.625rem;
   }
 
   .section-email-input {
-    width: clamp(280px, 100%, 479px);
+    width: clamp(17.5rem, 100%, 29.9375rem);
     margin: unset;
   }
 
   .section-submit {
-    width: 200px;
+    width: 12.5rem;
     margin: unset;
     margin-top: 1rem;
   }
@@ -687,7 +687,7 @@ ion-icon,
   /*============== SOCIALS ==============*/
   .socials {
     margin-top: unset;
-    gap: 18px;
+    gap: 1.125rem;
   }
 }
 
@@ -695,7 +695,7 @@ ion-icon,
 @media screen and (min-width: 1000px) {
   /*============== NAVIGATION ==============*/
   nav {
-    padding-inline: 80px;
+    padding-inline: 5rem;
     padding-top: 4rem;
   }
 
@@ -729,7 +729,7 @@ ion-icon,
 
   .main-image-container > img {
     width: calc(100% - 3rem);
-    max-width: 543px;
+    max-width: 33.9375rem;
   }
 
   .header-text-div {
@@ -739,7 +739,7 @@ ion-icon,
 
   /*============== MAIN ==============*/
   main {
-    margin-top: 164px;
+    margin-top: 10.25rem;
   }
 
   /*============== MAIN CONTAINER ==============*/
@@ -747,7 +747,7 @@ ion-icon,
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding-inline: 20px;
+    padding-inline: 1.25rem;
   }
 
   /*============== MAIN IMAGE CONTAINER ==============*/
@@ -764,18 +764,18 @@ ion-icon,
 
   .main-text-container > h1 {
     text-align: left;
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .main-text-container .main-para {
     padding-inline: unset;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .main-link {
-    font-size: 16px;
+    font-size: 1rem;
     margin: unset;
-    margin-top: 37px;
+    margin-top: 2.3125rem;
   }
 
   /*============== TESTIMONIAL CARD ==============*/
@@ -785,7 +785,7 @@ ion-icon,
   }
 
   section {
-    padding-inline: 80px;
+    padding-inline: 5rem;
   }
 }
 
@@ -796,7 +796,7 @@ ion-icon,
   }
   /*============== HEADER ==============*/
   header {
-    padding-inline: 80px;
+    padding-inline: 5rem;
     align-items: center;
   }
   .header-image-container > img {
@@ -818,7 +818,7 @@ ion-icon,
     text-align: left;
     margin: unset;
     margin-top: 2rem;
-    font-size: 16px;
+    font-size: 1rem;
     max-width: unset;
   }
 
@@ -829,24 +829,20 @@ ion-icon,
   }
 
   .header-email-input {
-    width: 320px;
-    height: 45px;
+    width: 20rem;
+    height: 2.8125rem;
     margin: unset;
   }
 
   .header-submit {
-    width: 200px;
-    height: 45px;
+    width: 12.5rem;
+    height: 2.8125rem;
     margin: unset;
   }
 
   /*============== MAIN ==============*/
-  main {
-    max-width: 20000px;
-  }
-
   .main-container {
-    padding-inline: 80px;
+    padding-inline: 5rem;
   }
 
   .main-text-container {
@@ -862,12 +858,12 @@ ion-icon,
   position: relative;
   width: calc(100% - 4.5rem);
   margin: 0 auto;
-  max-width: 479px;
+  max-width: 29.9375rem;
 }
 
 .section-email-input-container {
   position: relative;
-  width: 280px;
+  width: 17.5rem;
   width: clamp(280px, 74%, 480px);
 
   margin: 0 auto;
@@ -881,7 +877,7 @@ ion-icon,
 
 @media screen and (min-width: 1300px) {
   .header-email-input-container {
-    width: 320px;
+    width: 20rem;
     margin: unset;
   }
 }
@@ -893,7 +889,7 @@ ion-icon,
   position: absolute;
   left: 0%;
   bottom: -41%;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .section-email-input-container::after {
@@ -903,7 +899,7 @@ ion-icon,
   position: absolute;
   left: 0%;
   bottom: -44%;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .success-message {
@@ -933,12 +929,12 @@ ion-icon,
 
 @media screen and (min-width: 740px) and (max-width: 776px) {
   .success-message-section {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
 .success-message ion-icon,
 .success-message-section ion-icon {
   color: #ff0000;
-  font-size: 32px;
+  font-size: 2rem;
 }
