@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="Fylo-stylesheet.css" />
+    <script src="app.js" defer></script>
+    <title>Fylo landing page with two column layout | Frontend Mentor</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo-container">
+        <img src="./images/logo.svg" alt="Fylo-Logo" />
+      </div>
+      <ul class="nav-items">
+        <li>Features</li>
+        <li>Team</li>
+        <li>Sign In</li>
+      </ul>
+    </nav>
+    <header>
+      <div class="header-img-div">
+        <div class="header-image-container">
+          <img src="./images/illustration-1.svg" alt="illustration-1" />
+        </div>
+      </div>
+      <div class="header-text-div">
+        <h1>All your files in one secure location, acessible anywhere.</h1>
+        <p>
+          Fylo stores your most important files in one secure location. Access
+          them wherever you need, share and collaborate with friends, family,
+          and co-workers.
+        </p>
+        <form class="header-form" action="">
+          <div data-error="" class="header-email-input-container">
+            <input
+              class="header-email-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email..."
+              required
+              title=""
+              formnovalidate
+              oninput="clearError()"
+            />
+          </div>
+
+          <input
+            class="header-submit"
+            type="submit"
+            value="Get Started"
+            formnovalidate
+          />
+        </form>
+        <span class="success-message">
+          <ion-icon name="checkmark-done-outline"></ion-icon>
+          Email Sent
+        </span>
+      </div>
+    </header>
+    <main>
+      <div class="bg-container">
+        <picture>
+          <source
+            srcset="./images/bg-curve-desktop.svg"
+            media="(min-width: 1000px)"
+          />
+          <img src="./images/bg-curve-mobile.svg" alt="background" />
+        </picture>
+      </div>
+      <div class="main-container">
+        <div class="main-image-container">
+          <img src="./images/illustration-2.svg" alt="illustration-2" />
+        </div>
+        <div class="main-text-container">
+          <h1>Stay productive, wherever you are</h1>
+          <p class="paragraph-top main-para">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs
+          </p>
+          <p class="paragraph-bottom main-para">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <a class="main-link" href="#/">
+            See how Fylo works
+            <span>
+              <svg
+                class="arrow-svg"
+                width="16"
+                height="16"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <circle id="b" cx="6" cy="6" r="6" />
+                  <filter
+                    x="-25%"
+                    y="-25%"
+                    width="150%"
+                    height="150%"
+                    filterUnits="objectBoundingBox"
+                    id="a"
+                  >
+                    <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
+                    <feGaussianBlur
+                      stdDeviation="1"
+                      in="shadowOffsetOuter1"
+                      result="shadowBlurOuter1"
+                    />
+                    <feColorMatrix
+                      values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0"
+                      in="shadowBlurOuter1"
+                    />
+                  </filter>
+                </defs>
+                <g fill="none" fill-rule="evenodd">
+                  <g transform="translate(2 2)">
+                    <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                    <use class="svg-fill" fill="#3DA08F" xlink:href="#b" />
+                  </g>
+                  <path
+                    d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
+                    fill="#FFF"
+                  />
+                </g>
+              </svg>
+            </span>
+          </a>
+          <div class="testimonial card">
+            <div class="card-quote-container">
+              <img src="./images/icon-quotes.svg" alt="quote-icon" />
+            </div>
+            <div class="card-text-container">
+              <blockquote>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </blockquote>
+            </div>
+
+            <div class="card-profile-container">
+              <div class="profile-image-container">
+                <img src="./images/avatar-testimonial.jpg" alt="avatar" />
+              </div>
+              <div class="profile-text-container">
+                <h1>Kyle Burton</h1>
+                <p>Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section>
+      <div class="section-top">
+        <h1>Get early access today</h1>
+        <p>
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+      </div>
+      <div class="section-bottom">
+        <form class="section-form" action="">
+          <div
+            id="section-error"
+            data-error=""
+            class="section-email-input-container"
+          >
+            <input
+              class="section-email-input"
+              type="email"
+              name="second-email"
+              id="second-email"
+              placeholder="email@example.com"
+              required
+              title=""
+              formnovalidate
+              oninput="clearError()"
+            />
+          </div>
+
+          <input
+            class="section-submit"
+            type="submit"
+            value="Get Started For Free"
+            formnovalidate
+          />
+        </form>
+        <span class="success-message-section">
+          <ion-icon name="checkmark-done-outline"></ion-icon>
+          Email Sent
+        </span>
+      </div>
+    </section>
+    <footer>
+      <address class="footer1">
+        <div class="footer-logo-container">
+          <img src="./images/logo-footer.svg" alt="Fylo-Logo" />
+        </div>
+
+        <a class="a-icon-container" href="#/">
+          <div class="icon">
+            <img src="./images/icon-phone.svg" alt="phone-icon" />
+          </div>
+          <p>Phone: +1-543-123-4567</p>
+        </a>
+
+        <a class="a-icon-container" href="#/">
+          <div class="icon">
+            <img src="./images/icon-email.svg" alt="email-icon" />
+          </div>
+          <p>example@fylo.com</p>
+        </a>
+      </address>
+      <div class="footer2">
+        <ul class="footer-ul">
+          <li><a href="#/">About Us</a></li>
+          <li><a href="#/">Jobs</a></li>
+          <li><a href="#/">Press</a></li>
+          <li><a href="#/">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer3">
+        <ul class="footer-ul">
+          <li><a href="#/">Contact Us</a></li>
+          <li><a href="#/">Terms</a></li>
+          <li><a href="#/">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer4">
+        <ul class="footer-ul socials">
+          <li>
+            <svg
+              class="ion-icon"
+              fill="#fff"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 30 30"
+              width="16px"
+              height="16px"
+            >
+              <path
+                d="M12,27V15H8v-4h4V8.852C12,4.785,13.981,3,17.361,3c1.619,0,2.475,0.12,2.88,0.175V7h-2.305C16.501,7,16,7.757,16,9.291V11h4.205l-0.571,4H16v12H12z"
+              />
+            </svg>
+          </li>
+          <li><ion-icon class="ion-icon" name="logo-twitter"></ion-icon></li>
+          <li class="ion-icon-instagram">
+            <ion-icon
+              class="ion-icon ion-icon-instagram"
+              name="logo-instagram"
+            ></ion-icon>
+          </li>
+        </ul>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a
+          class="linear-wipe"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >
+        Coded by
+        <a
+          class="linear-wipe"
+          href="https://www.frontendmentor.io/profile/fistty"
+          target="_blank"
+          >Osuntuyi Ayomide Amos</a
+        >
+        View other solutions
+        <a
+          class="linear-wipe"
+          href="https://www.frontendmentor.io/profile/fistty"
+          target="_blank"
+          >here</a
+        >
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
