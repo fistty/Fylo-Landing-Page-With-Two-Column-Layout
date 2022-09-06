@@ -576,6 +576,10 @@ footer li {
   transform: scale(1.2);
 }
 
+.socials > .ion-icon-twitter:hover {
+  border-color: rgb(28, 161, 241);
+}
+
 .socials > .ion-icon-instagram:hover {
   border-color: #d63673;
 }
@@ -590,6 +594,10 @@ ion-icon,
 
 .socials > li:hover .ion-icon {
   fill: var(--Bright-Blue);
+}
+
+.socials > li:hover .ion-icon-twitter {
+  fill: rgb(28, 161, 241);
 }
 
 .socials > li:hover .ion-icon-instagram {
