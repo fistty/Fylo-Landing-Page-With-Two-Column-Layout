@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Solution](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100/hub/huddle-landing-page-with-alternating-blocks-with-minor-designs-CO2DOGkZw4)
-- Live Site URL: [Netlify Live Site](https://huddle-alternating.netlify.app/)
+- Live Site URL: [Netlify Live Site](https://fistty-fylo-landing-page.netlify.app/)
 
 ## My process
 
