@@ -390,10 +390,11 @@ section {
   padding-bottom: 71px;
 }
 
-.section-top > h1 {
+.section-top > .section-top-header {
   color: white;
   text-align: center;
   font-family: var(--Raleway);
+  font-weight: 700;
 }
 
 .section-top p {
@@ -620,7 +621,7 @@ ion-icon,
   }
 
   /*============== SECTION-TOP ==============*/
-  .section-top > h1 {
+  .section-top > .section-top-header {
     text-align: left;
   }
 
@@ -789,7 +790,7 @@ ion-icon,
     padding-top: 100px;
   }
 
-  .section-top > h1 {
+  .section-top > .section-top-header {
     font-size: 32px;
   }
 
