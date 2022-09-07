@@ -730,6 +730,8 @@ ion-icon,
   .main-image-container > img {
     width: calc(100% - 3rem);
     max-width: 33.9375rem;
+    margin: unset;
+    margin-left: auto;
   }
 
   .header-text-div {
