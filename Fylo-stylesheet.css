@@ -950,6 +950,7 @@ ion-icon,
   font-family: var(--Raleway);
   opacity: 0;
   visibility: hidden;
+  font-weight: 500;
 }
 
 .success-message-section {
@@ -963,6 +964,7 @@ ion-icon,
   opacity: 0;
   visibility: hidden;
   color: white;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 740px) and (max-width: 776px) {
