@@ -38,7 +38,7 @@
           them wherever you need, share and collaborate with friends, family,
           and co-workers.
         </p>
-        <form class="header-form" action="">
+        <form class="header-form">
           <div data-error="" class="header-email-input-container">
             <input
               class="header-email-input"
@@ -48,7 +48,6 @@
               placeholder="Enter your email..."
               required
               title=""
-              formnovalidate
               oninput="clearError()"
             />
           </div>
@@ -161,8 +160,11 @@
       </div>
     </main>
     <section>
-      <div class="section-top">
-        <h1>Get early access today</h1>
+      <h1 style="display: none">SECTION</h1>
+      <div role="" class="section-top">
+        <div role="heading" class="section-top-header">
+          Get early access today
+        </div>
         <p>
           It only takes a minute to sign up and our free starter tier is
           extremely generous. If you have any questions, our support team would
@@ -170,7 +172,7 @@
         </p>
       </div>
       <div class="section-bottom">
-        <form class="section-form" action="">
+        <form role="form" class="section-form">
           <div
             id="section-error"
             data-error=""
@@ -184,7 +186,6 @@
               placeholder="email@example.com"
               required
               title=""
-              formnovalidate
               oninput="clearError()"
             />
           </div>
