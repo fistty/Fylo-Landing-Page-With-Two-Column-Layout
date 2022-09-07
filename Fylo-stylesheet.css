@@ -459,8 +459,7 @@ section input {
 footer {
   font-family: var(--Open-Sans);
   background-color: var(--Very-Dark-Blue);
-  padding-top: 64px;
-
+  padding-top: 70px;
   padding-bottom: 80px;
   color: var(--Light-Grayish-Blue);
   position: relative;
