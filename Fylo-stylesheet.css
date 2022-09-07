@@ -169,6 +169,7 @@ header p {
   padding-left: 1.3125rem;
   color: var(--Light-Gray);
   box-shadow: inset 0px 0px 0px 1px rgb(191 191 191);
+  transition: all 200ms ease-out;
 }
 
 .header-email-input:focus-visible {
