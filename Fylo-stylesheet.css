@@ -252,7 +252,7 @@ main {
 .main-text-container .main-para {
   padding-inline: 1.125rem;
   font-size: 0.9375rem;
-  color: var(--Desaturated-Blue);
+  color: var(--Very-Dark-Blue);
 }
 
 .paragraph-top {
@@ -811,14 +811,14 @@ ion-icon,
 
   header h1 {
     text-align: left;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 
   header p {
     text-align: left;
     margin: unset;
     margin-top: 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width: unset;
   }
 
