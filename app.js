@@ -43,12 +43,14 @@ headerSubmit.addEventListener("click", () => {
   /* CHECKS FOR EMPTY VALUE */
   if (headerEmail.value === "") {
     headerEmailContainer.dataset.error = enterEmail;
+    headerEmail.style.borderColor = "red";
     return;
   }
 
   /* CHECKS FOR INVALIDE EMAIL */
   if (!headerEmail.value.match(regex)) {
     headerEmailContainer.dataset.error = checkEmail;
+    headerEmail.style.borderColor = "red";
     return;
   }
 
@@ -59,6 +61,7 @@ headerSubmit.addEventListener("click", () => {
     /* CHECKS FOR ALREADY ENTERED EMAIL */
     if (idx >= 0) {
       headerEmailContainer.dataset.error = existingEmail;
+      headerEmail.style.borderColor = "red";
       return;
     }
     emailArray.push(headerEmail.value);
@@ -80,14 +83,14 @@ sectionSubmit.addEventListener("click", () => {
   /* CHECKS FOR EMPTY VALUE */
   if (sectionEmail.value === "") {
     sectionEmailContainer.dataset.error = enterEmail;
-
+    sectionEmail.style.borderColor = "red";
     return;
   }
 
   /* CHECKS FOR INVALIDE EMAIL */
   if (!sectionEmail.value.match(regex)) {
     sectionEmailContainer.dataset.error = checkEmail;
-
+    sectionEmail.style.borderColor = "red";
     return;
   }
 
@@ -98,7 +101,7 @@ sectionSubmit.addEventListener("click", () => {
     /* CHECKS FOR ALREADY ENTERED EMAIL */
     if (idx >= 0) {
       sectionEmailContainer.dataset.error = existingEmail;
-
+      sectionEmail.style.borderColor = "red";
       return;
     }
     emailArray.push(sectionEmail.value);
@@ -119,6 +122,8 @@ sectionSubmit.addEventListener("click", () => {
 const clearError = () => {
   headerEmailContainer.dataset.error = "";
   sectionEmailContainer.dataset.error = "";
+  headerEmail.style.borderColor = "";
+  sectionEmail.style.borderColor = "";
 };
 
 /* HOVER EFFECT ON SECTION LINK --- MOVING IMAGE */
