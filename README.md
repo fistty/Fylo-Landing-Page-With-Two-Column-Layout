@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Solution](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100/hub/huddle-landing-page-with-alternating-blocks-with-minor-designs-CO2DOGkZw4)
+- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/fylo-landing-page-two-column-hover-state-and-email-validation-b41BpwOgV3)
 - Live Site URL: [Netlify Live Site](https://fistty-fylo-landing-page.netlify.app/)
 
 ## My process
